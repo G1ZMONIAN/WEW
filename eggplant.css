@@ -1,0 +1,157 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+img{
+    margin-left:30px;
+    display: block;
+    width:70%;
+    border:solid 1px;
+    border-color: antiquewhite;
+    height:300px;
+   
+   
+    
+    
+}
+h1{
+    float:right;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+body{
+    background:antiquewhite;
+}
+h3{
+    float:left;
+}
+button{
+    margin-top:15px;
+    font-size: 15px;
+    width:50px;
+    text-align: center;
+    border:solid 1px;
+    
+}
+#resetBtn{
+    margin-left:130px;
+}
+#submitbtn{
+    margin-left:220px;
+}
+.order{
+    width:150px;
+    height:50px;
+    border:solid 1px;
+    text-align: center;
+    margin-top:50px;
+    margin-left:100px;
+    background:green;
+}
+a{
+    text-decoration: none;
+}
+#Total{
+    margin-left:240px;
+}
+@media only screen and (min-width:768px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width:100%;
+        height:150px;
+        background:#004d20;
+    }
+    .container h1{
+        float:left;
+        padding-top:50px;
+        padding-left: 50px;
+        color:#e0d0ce;
+        font-size: 30px;;
+    }
+    img{
+        width:90%;
+    }
+    h2{
+        font-size:50px;
+    }
+    h3{
+        font-size:35px;
+    }
+    hr{
+        border:solid 1px;
+    }
+    button{
+        margin-top:20px;
+        font-size: 35px;
+        width:120px;
+        text-align: center;
+        border:solid 1px;
+        margin-left:5px;
+        
+    }
+    #resetBtn{
+        margin-left:250px;
+    }
+    #countLabel{
+        font-size:35px;
+    }
+   #submitbtn{
+    margin-left:450px;
+   }
+   #Total{
+    font-size: 50px;
+    margin-left:500px;
+   }
+   .order{
+    width:450px;
+    height:150px;
+    border:solid 1px;
+    text-align: center;
+    margin-top:150px;
+    margin-left:180px;
+    font-size: 50px;
+    background: green;
+}
+}
+@media only screen and (min-width:1000px){
+    #resetBtn{
+        margin-left:480px;
+    }
+    #submitbtn{
+        margin-left:700px;
+       }
+       .order{
+        width:450px;
+        height:150px;
+        border:solid 1px;
+        text-align: center;
+        margin-top:100px;
+        margin-left:320px;
+        font-size: 50px;
+        background: green;
+    }
+   
+}
+@media only screen and (min-width:1325px){
+    img{
+       width:40%;
+       height:40%;
+       margin-left:600px;
+       
+    }
+    #resetBtn{
+        margin-left:1350px;
+    }
+    #submitbtn{
+        margin-left:1550px;
+    }
+    .order{
+        margin-left:700px;
+    }
+    #Total{
+        margin-left:850px;
+    }
+}
